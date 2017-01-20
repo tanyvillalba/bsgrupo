@@ -1,0 +1,27 @@
+*{
+    padding: 15 px;
+    background-color: #2e6da4;
+    color: #ffffff;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: red;
+}
+
+button{
+    color: #900;
+    border: 1px solid #900;
+    font-weight: bold;
+    background-color: #dbdbdb;
+}
+
+button::-moz-focus-inner{
+    padding : 0;
+    border  : 0;
+}
